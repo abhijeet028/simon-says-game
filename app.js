@@ -23,7 +23,7 @@ function levelUp() {
     userSequence=[];
     level++;
     h2.innerText = `level ${level}`;
-    let randIndex = Math.floor(Math.random() * 3);//0 --> 3
+    let randIndex = Math.floor(Math.random() * 4);//0 --> 3
     let randColor = btns[randIndex];
     gameSequence.push(randColor);
     console.log(gameSequence);
